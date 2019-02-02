@@ -14,14 +14,21 @@ public class AdvancedCalculator {
         for (int i=1; i<=x; i++){
             wynik *= i;
         }
-        
+
         return wynik;
     }
 
-    public double potega(int podstawa, int potega) {
+    public double power(int podstawa, int wykladnik) {
         // TODO implement
-        throw new UnsupportedOperationException("Not implemented yet");
+        double result;
+        return result = Math.pow(podstawa, wykladnik);
     }
+
+
+
+
+
+
 
     public Function<Double, Double> funkcjaLiniowa(List<Double> ciagLiczb) {
         double b = ciagLiczb.get(0);
